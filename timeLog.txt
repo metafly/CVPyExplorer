@@ -1,0 +1,25 @@
+2017
+
+TimeLog	
+	
+19-Nov	
+20-Nov	2 hours 
+21-Nov	10 hours
+22-Nov	3 hours
+23-Nov	0 hours 
+24-Nov	5 hours
+25-Nov	4 hours 
+26-Nov	3 hours
+27-Nov	2 hours 
+28-Nov	6 hours
+29-Nov	2 hours 
+30-Nov	0 hours 
+1-Dec	  4 hours 
+2-Dec	  3 hours 
+3-Dec	  5 hours
+4-Dec	  0 hours 
+5-Dec	  6 hours
+6-Dec	  8 hours
+7-Dec	  10 hours
+
+Total hours spent: 73
