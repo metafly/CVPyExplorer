@@ -1,0 +1,33 @@
+
+Shivani Prasad
+21 November 2017
+
+
+Problem Statement:
+With the birth of devices like Microsoft Kinect, Microsoft Hololens, Leapmotion cameras, Oculus Rift etc, there has been an increasing need to be able to interact with a computer/software without physically interacting with it. My project, focuses on this growing trend and works on creating an interface to interact with the use of your computer’s webcam itself. 
+
+Steps to solution:
+1.	Take input from the device’s webcam/external webcam
+2.	In a clear background, find a contour of the user's hand(Could use colorful gloves instead)
+3.	Detect the position of the center of the hand (palm).
+4.	Find the positions of the user's fingers.
+5.	Track these hand positions over multiple frames.
+6.	Determine which of a few basic gestures the user's hand is making, if any.
+7.	Initiate pre-designed actions with recognized gestures.
+8.	Optimize and improve recognition with more complicated algorithms.
+9.	Interface program with an open source game to demonstrate capabilities.
+
+Modules:
+	I intend to use OpenCV2, Numpy(math module) and its Python wrapper. OpenCV provides both computer vision and machine learning capabilities. 
+  Depending on the function of the gesture and complexity I also intend to use modules like tkinter, pygame, API and json. 
+
+
+Gestures:
+	I plan on being able to differentiate gestures using their shape and movement. 
+  This means that one-finger gesture would be different from a four-finger gesture and a vertically moving hand would be different from a horizontally moving hand. 
+
+Proposed Algorithm:
+	The application will take a webcam feed, remove noise, blur it and then convert it from BGR(blue-green-red) to HSV (hue saturation value). 
+  So, you first capture a background without your hand and then run the application with your hand. And then performs a bitwise operation to cancel every part of the background that is not your hand.
+  Then, a contour of this hand is taken and then finds the convex hull, bounding boxes and ellipses. The biggest challenge in openCV is detecting the hand and then figuring out the gestures itself. 
+  Once, you have this nailed down, these gestures can now be associated to an action like maybe an airdrawer, in which you can draw by moving your hand, or maybe play tetris(code not implemented during the year) with your hand. 
