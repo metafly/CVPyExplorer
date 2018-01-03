@@ -1,0 +1,30 @@
+Competitive Analysis 
+Description of Your Planned Project
+The project is an interface application created with the help of openCV. In this you interact with the application without any physical contact, rather the communication is done via hand gestures. And to do this, no expensive hardware is required. Rather, you just use the inbuilt webcam in your device. 
+Evaluating Your Competition
+1) Microsoft Kinect –
+DESCRIPTION: 
+Microsoft Kinect instead of just using a body part gesture, it detects the whole body of a human. Also, instead of detecting just one person, it can detect upto 6 person.  The ability to detect up to 6 people, allows it to have multiplayer interactions. Due to Kinect’s popularity, besides Microsoft, there are a lot of third parties that make applications to be used with Kinect. User has to buy an external hard drive to be able to use it. Only compatible with Windows Operating System. 
+
+2) LeapMotion-
+DESCRIPTION:
+LeapMotion detects just hands. But, it provides a depth analysis and provides a 3D structure of the hands. It provides a platform for people to build off programs and games on. This leads to multiple third-party applications using the product. The API of LeapMotion is really well documented and that makes it easy to use. 
+
+3) OMRON: Hand Gesture V2 (http://www.omron.com/media/press/2013/09/e0926.html)
+DESCRIPTION: 
+This is a software that makes use of face sensing and hand sensing technologies. Hand, finger, shape and movements can be recognized simultaneously by this software. It requires no special camera and works on normal smartphone camera and webcams. It is also compatible with all operating systems. 
+
+Identify Comparison Dimensions
+Comparison dimensions: 
+1)	OS it operates on: this is an important dimension as it helps us analyze what kind of users can actually use this. 
+2)	Devices: What range of devices can they interact with. 
+3)	Cost: Cost of Implementing/Using them
+4)	Gestures Detected: How many or what kind of gestures are inferred. Helps analyse which can perform more functions
+5)	Using Pre-conditions: How should the device be used 
+
+Features needed to make my game competitive:
+1)	Be able to detect a lot of gestures and perform actions
+2)	Have a well-documented source code so that third-party creators can use my interface to create applications
+3)	Be able to run across all/most Operating Systems
+4)	Cost Effectiveness or lack of external hardware costs
+5)	To be able to run on as many devices as possible.
